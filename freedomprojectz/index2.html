@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		body {
+			margin: 0;
+			height: 2000px;
+		}
+		.header {
+			background-image: url('./images/UgandaOct2018-724.jpg');
+			padding-top: 140px;
+			padding-bottom: 60px;
+			background-position: center;
+			background-size: cover;
+		}
+
+		.header h1,
+		.header p {
+			text-align: center;
+		}
+
+		.header button {
+			margin: 0 auto;
+			display: block;
+			background-color: #d9a429;
+			border-radius: 20px;
+			padding: 8px 16px;
+			color: white;
+			border: none;
+		}
+
+		nav {
+			display: flex;
+			justify-content: space-between;
+			position: fixed;
+			left: 0;
+			right: 0;
+			background-color: rgb(62, 106, 144, 0.75);
+			padding-top: 10px;
+			padding-bottom: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		nav img {
+			max-width: 200px;
+		}
+
+		.links {
+			display: flex;
+			align-items: center;
+			gap: 15px;
+		}
+
+		.place {
+
+		}
+
+		.row {
+			display: flex;
+			gap: 20px;
+		}
+
+		.place-image {
+			width: 150px;
+			height: 150px;
+			background-image: url('https://dq5pwpg1q8ru0.cloudfront.net/2021/04/01/22/39/22/a8ee593c-35b1-4ea9-8eb6-2328f4c5a807/UgandaOct2018-695.jpg');
+			background-size: cover;
+			background-position: center;
+			border-radius: 50%;
+		}
+
+		.container {
+			max-width: 491px;
+    		margin: 0 auto;
+		}
+
+		.place h2,
+		.place p {
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="./images/logo.png" alt="">
+		</div>
+		<div class="links">
+			<a href="">Link 1</a>
+			<a href="">Link 2</a>
+			<a href="">Link 3</a>
+		</div>
+	</nav>
+
+	<section class="header">
+		<h1>Title</h1>
+		<p>Paragraph</p>
+		<button>Give Now</button>
+	</section>
+
+	<section class="places">
+		<div class="container">
+			<h2>Here's Where We Serve</h2>
+			<div class="row">
+				<div>
+					<div class="place-image"></div>
+					<p>Uganda</p>
+				</div>
+				<div>
+					<div class="place-image"></div>
+					<p>Uganda</p>
+				</div>
+				<div>
+					<div class="place-image"></div>
+					<p>Uganda</p>
+				</div>
+			</div>
+			<div class="row">
+				<div>
+					<div class="place-image"></div>
+					<p>Uganda</p>
+				</div>
+				<div>
+					<div class="place-image"></div>
+					<p>Uganda</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
