@@ -1,0 +1,460 @@
+/* ===== CSS ПРОМЕНЛИВИ — ЦВЕТОВЕ И ШРИФТОВЕ ===== */
+:root {
+  --bg-main: #0a0a1a;
+  --bg-section: #0f0f23;
+  --accent: #7c6fe0;
+  --accent-light: #a78bfa;
+  --text-main: #ffffff;
+  --text-soft: #9999bb;
+}
+
+/* ===== ОСНОВНИ НАСТРОЙКИ ===== */
+body {
+  font-family: "Inter", sans-serif;
+  background: var(--bg-main);
+  color: var(--text-main);
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== БУТОНИ ===== */
+.btn-primary {
+  display: inline-block;
+  background: var(--accent);
+  color: #ffffff;
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition:
+    background 0.3s ease,
+    transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: var(--accent-light);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  display: inline-block;
+  border: 2px solid var(--accent-light);
+  color: var(--accent-light);
+  padding: 0.9rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background: var(--accent-light);
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* ===== SECTION LABEL ===== */
+.section-label {
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent-light);
+  margin-bottom: 1.5rem;
+  display: block;
+}
+
+/* ===== HERO СЕКЦИЯ ===== */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 2rem 4rem 2rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 50%, #0d0d2b 100%);
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+.hero-tagline {
+  font-size: 0.85rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent-light);
+  margin-bottom: 1.5rem;
+}
+
+.hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(3rem, 7vw, 5.5rem);
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+
+.hero-text {
+  color: var(--text-soft);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  max-width: 600px;
+  margin: 0 auto 2.5rem auto;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ===== MISSION STRIP ===== */
+.mission-strip {
+  background: var(--bg-section);
+  padding: 5rem 2rem;
+}
+
+.mission-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.mission-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  flex: 1;
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.mission-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-light);
+}
+
+.mission-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.mission-card h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.mission-card p {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ===== OUR STORY СЕКЦИЯ ===== */
+.our-story {
+  background: var(--bg-main);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.our-story-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.our-story-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  max-width: 750px;
+  margin: 0 auto 4rem auto;
+  line-height: 1.4;
+}
+
+.our-story-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.story-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  flex: 1;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.story-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-light);
+}
+
+.story-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.story-card h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.story-card p {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ===== OUR STORY QUOTE ===== */
+.our-story-quote {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  color: #ffffff;
+  text-align: center;
+  font-style: italic;
+  margin: 2rem auto 3rem auto;
+  padding: 2rem;
+  max-width: 750px;
+  background: rgba(124, 111, 224, 0.1);
+  border-radius: 16px;
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  line-height: 1.6;
+}
+
+/* ===== PROJECTS СЕКЦИЯ ===== */
+.projects-section {
+  background: var(--bg-section);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.projects-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.projects-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  max-width: 750px;
+  margin: 0 auto 4rem auto;
+  line-height: 1.4;
+}
+
+.projects-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.project-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  flex: 1;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-light);
+}
+
+.project-flag {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-card p {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ===== IMPACT СЕКЦИЯ ===== */
+.impact-section {
+  background: var(--bg-main);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.impact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.impact-grid {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.impact-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  flex: 1;
+  min-width: 180px;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.impact-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-light);
+}
+
+.impact-number {
+  font-family: "Playfair Display", serif;
+  font-size: 3.5rem;
+  color: var(--accent-light);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.impact-label {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* ===== DONATE CTA СЕКЦИЯ ===== */
+.donate-cta {
+  background: linear-gradient(135deg, #1a1040 0%, #0d0d2b 100%);
+  padding: 7rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(167, 139, 250, 0.2);
+  border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.donate-cta-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.donate-cta-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  margin: 0 auto 1.5rem auto;
+  line-height: 1.4;
+}
+
+.donate-cta-text {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background: var(--bg-section);
+  padding: 4rem 2rem 2rem 2rem;
+  border-top: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.footer-logo {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin: 0 0 0.5rem 0;
+}
+
+.footer-tagline {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: var(--text-soft);
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: var(--accent-light);
+}
+
+.footer-copy {
+  color: var(--text-soft);
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+.footer-copy p {
+  margin: 0;
+}
+
+/* ===== RESPONSIVE — МОБИЛЕН ДИЗАЙН ===== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.8rem;
+  }
+
+  .mission-container {
+    flex-direction: column;
+  }
+
+  .our-story-cards {
+    flex-direction: column;
+  }
+
+  .projects-cards {
+    flex-direction: column;
+  }
+
+  .impact-grid {
+    flex-direction: column;
+  }
+}

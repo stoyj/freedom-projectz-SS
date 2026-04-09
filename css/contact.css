@@ -1,0 +1,171 @@
+/* ===== CONTACT HERO ===== */
+.contact-hero {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 2rem 4rem 2rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 50%, #0d0d2b 100%);
+}
+
+.contact-hero-content {
+  max-width: 750px;
+}
+
+.contact-hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.contact-hero-subtitle {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  background: var(--bg-main);
+  padding: 6rem 2rem;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 4rem;
+  align-items: flex-start;
+}
+
+/* ===== ФОРМА ===== */
+.contact-form-wrapper {
+  flex: 1.5;
+}
+
+.contact-form-wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form-group label {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group textarea {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 10px;
+  padding: 0.9rem 1.2rem;
+  color: var(--text-main);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  outline: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--accent-light);
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(153, 153, 187, 0.5);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.contact-btn {
+  align-self: flex-start;
+  cursor: pointer;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+}
+
+/* ===== ИНФОРМАЦИЯ ===== */
+.contact-info-wrapper {
+  flex: 1;
+}
+
+.contact-info-wrapper h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.contact-info-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-light);
+}
+
+.contact-info-icon {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-info-card h3 {
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.contact-info-card p {
+  color: var(--text-soft);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ===== RESPONSIVE — МОБИЛЕН ДИЗАЙН ===== */
+@media (max-width: 768px) {
+  .contact-hero-title {
+    font-size: 2.2rem;
+  }
+
+  .contact-container {
+    flex-direction: column;
+  }
+
+  .contact-btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,137 @@
+/* ===== MISSION HERO ===== */
+.mission-hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 2rem 4rem 2rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 50%, #0d0d2b 100%);
+}
+
+.mission-hero-content {
+  max-width: 750px;
+}
+
+.mission-hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  color: #ffffff;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.mission-hero-verse {
+  font-style: italic;
+  color: var(--text-soft);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  max-width: 650px;
+  margin: 0 auto 0.8rem auto;
+  border-left: 3px solid var(--accent);
+  padding-left: 1.5rem;
+  text-align: left;
+}
+
+.mission-hero-verse-ref {
+  color: var(--accent-light);
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-align: left;
+  max-width: 650px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+}
+
+/* ===== MISSION BODY ===== */
+.mission-body {
+  background: var(--bg-main);
+  padding: 6rem 2rem;
+}
+
+.mission-body-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.mission-block {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  flex: 1;
+  text-align: center;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.mission-block:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-light);
+}
+
+.mission-block-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.mission-block h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.mission-block p {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+/* ===== MISSION BANNER ===== */
+.mission-banner {
+  background: linear-gradient(135deg, #1a1040 0%, #0d0d2b 100%);
+  padding: 7rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(167, 139, 250, 0.2);
+  border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.mission-banner-container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.mission-banner-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.mission-banner-text {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+/* ===== RESPONSIVE — МОБИЛЕН ДИЗАЙН ===== */
+@media (max-width: 768px) {
+  .mission-hero-title {
+    font-size: 2.2rem;
+  }
+
+  .mission-body-container {
+    flex-direction: column;
+  }
+
+  .mission-hero-verse {
+    font-size: 0.95rem;
+  }
+}

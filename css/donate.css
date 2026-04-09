@@ -1,0 +1,148 @@
+/* ===== DONATE HERO ===== */
+.donate-hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8rem 2rem 4rem 2rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #1a1040 50%, #0d0d2b 100%);
+}
+
+.donate-hero-content {
+  max-width: 750px;
+}
+
+.donate-hero-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.donate-hero-subtitle {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ===== ЗАЩО ДА ДАРИШ ===== */
+.donate-why {
+  background: var(--bg-main);
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.donate-why-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.donate-why-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  margin: 0 auto 4rem auto;
+  line-height: 1.4;
+}
+
+.donate-why-cards {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.donate-why-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(167, 139, 250, 0.2);
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  flex: 1;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.donate-why-card:hover {
+  transform: translateY(-6px);
+  border-color: var(--accent-light);
+}
+
+.donate-why-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.donate-why-card h3 {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.donate-why-card p {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+/* ===== DONATE CTA ===== */
+.donate-cta-section {
+  background: linear-gradient(135deg, #1a1040 0%, #0d0d2b 100%);
+  padding: 7rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.donate-cta-inner {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.donate-cta-heading {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+
+.donate-cta-subtext {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 2.5rem;
+}
+
+.donate-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.donate-note {
+  color: var(--text-soft);
+  font-size: 0.85rem;
+  opacity: 0.6;
+  margin: 0;
+}
+
+/* ===== RESPONSIVE — МОБИЛЕН ДИЗАЙН ===== */
+@media (max-width: 768px) {
+  .donate-hero-title {
+    font-size: 2.2rem;
+  }
+
+  .donate-why-cards {
+    flex-direction: column;
+  }
+
+  .donate-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+}

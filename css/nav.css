@@ -1,0 +1,94 @@
+/* ===== ОСНОВНИ НАСТРОЙКИ ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== НАВИГАЦИЯ — ЛЕНТА ГОРЕ ===== */
+.nav-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #0a0a1a;
+  box-shadow: 0 2px 20px rgba(124, 111, 224, 0.15);
+  z-index: 1000;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ===== ЛОГОТО ===== */
+.nav-logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #9999bb;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.nav-menu a:hover {
+  color: #a78bfa;
+  border-bottom: 2px solid #a78bfa;
+}
+
+/* ===== МОБИЛЕН БУТОН ☰ ===== */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+/* ===== МОБИЛНО МЕНЮ ===== */
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #0a0a1a;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem; /* ← това прави разстоянието между линковете */
+    padding: 2rem 0;
+    gap: 1.5rem;
+    transform: translateY(-150%);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.open {
+    transform: translateY(0);
+  }
+}
