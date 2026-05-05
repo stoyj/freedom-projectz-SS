@@ -159,6 +159,58 @@ body {
   line-height: 1.7;
 }
 
+/* ===== VIDEO SECTION ===== */
+.video-section {
+  background: var(--bg-main);
+  padding: 6rem 2rem;
+  text-align: center;
+  border-top: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.video-inner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.video-title {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: #ffffff;
+  margin: 0 auto 1rem auto;
+  line-height: 1.4;
+}
+
+.video-subtitle {
+  color: var(--text-soft);
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .video-title {
+    font-size: 1.8rem;
+  }
+}
+
 /* ===== OUR STORY СЕКЦИЯ ===== */
 .our-story {
   background: var(--bg-main);

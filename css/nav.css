@@ -92,3 +92,37 @@
     transform: translateY(0);
   }
 }
+
+/* ===== LANGUAGE SWITCH ===== */
+.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 1.5rem;
+}
+
+.lang-btn {
+  background: none;
+  border: 1px solid transparent;
+  color: #9999bb;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.25rem 0.55rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.lang-btn:hover {
+  color: #a78bfa;
+}
+
+.lang-btn.active {
+  color: #ffffff;
+  border-color: #a78bfa;
+  background: rgba(167, 139, 250, 0.15);
+}
+
+.lang-sep {
+  color: #555577;
+}
