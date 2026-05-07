@@ -1,0 +1,14 @@
+# Системни файлове / System files
+.DS_Store
+Thumbs.db
+
+# Claude Code папки / Claude Code folders
+.claude/
+
+# Програми / Programs
+7-Zip/
+
+# Лични файлове / Personal files
+viber_*
+Информация*
+*.bak
