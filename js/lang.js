@@ -26,8 +26,7 @@ const translations = {
 
     video_label: "Кои сме ние",
     video_title: "Запознай се с Freedom Projectz",
-    video_subtitle:
-      "Гледай как нашата мисия живее в Уганда, България и Ел Салвадор.",
+    video_subtitle: "Гледай как нашата мисия живее в Уганда, България.",
 
     home_story_label: "Нашата История",
     home_story_title:
@@ -46,16 +45,17 @@ const translations = {
     home_story_btn: "Прочети нашата история →",
 
     home_projects_label: "Нашите Проекти",
-    home_projects_title: "Любовта в действие — три континента, един призив.",
+    home_projects_title: "Любовта в действие — два континента, един призив.",
     home_ug_title: "Уганда",
     home_ug_text:
       "Работим с местни общности за да донесем надежда, образование и грижа на децата и семействата в Уганда.",
     home_bg_title: "България",
     home_bg_text:
       "Служим на нуждаещите се в нашата собствена общност — защото промяната започва от дома.",
-    home_sv_title: "Ел Салвадор",
-    home_sv_text:
-      "Подкрепяме семейства и деца в Ел Салвадор с любов, ресурси и присъствие.",
+    projects_cta_title: "Искаш ли да служиш?",
+    projects_cta_text:
+      "Ако искаш да служиш с нас — свържи се с нас и член на екипа на Freedom Projectz ще се свърже с теб.",
+    projects_cta_btn: "Свържи се с нас",
 
     home_impact_label: "Нашето Въздействие",
     home_impact1: "Държави където служим",
@@ -136,7 +136,7 @@ const translations = {
     story_cta_btn: "Подкрепи Freedom Projectz",
 
     projects_hero_label: "Нашите Проекти",
-    projects_hero_title: "Любовта в действие — три континента, един призив.",
+    projects_hero_title: "Любовта в действие — два континента, един призив.",
     projects_hero_subtitle:
       "Където и да отидем, носим същото послание — Бог вижда, обича и се грижи за теб.",
     projects_how: "Как служим",
@@ -170,25 +170,6 @@ const translations = {
     projects_bg_card3_title: "Младежко служение",
     projects_bg_card3_text:
       "Инвестираме в следващото поколение лидери чрез обучение, менторство и вдъхновение.",
-    projects_sv_label: "Ел Салвадор",
-    projects_sv_title: "Надежда за семейства и деца.",
-    projects_sv_text1:
-      "В Ел Салвадор Freedom Projectz служи на семейства и деца в нужда — носейки любов, ресурси и присъствие.",
-    projects_sv_text2:
-      "Вярваме че всяко дете заслужава да расте в среда на любов и грижа.",
-    projects_sv_card1_title: "Грижа за деца",
-    projects_sv_card1_text:
-      "Осигуряваме безопасна среда, храна и образование за деца в риск.",
-    projects_sv_card2_title: "Общностно развитие",
-    projects_sv_card2_text:
-      "Работим с местни лидери за да изградим устойчиви решения за общността.",
-    projects_sv_card3_title: "Духовна грижа",
-    projects_sv_card3_text:
-      "Носим послание на надежда и любов чрез Исус Христос на всички които срещаме.",
-    projects_cta_title: "Искаш ли да служиш?",
-    projects_cta_text:
-      "Ако искаш да служиш с нас — свържи се с нас и член на екипа на Freedom Projectz ще се свърже с теб.",
-    projects_cta_btn: "Свържи се с нас",
 
     donate_hero_label: "Подкрепи",
     donate_hero_title: "Твоята подкрепа променя животи.",
@@ -196,9 +177,9 @@ const translations = {
       "Всяко дарение — голямо или малко — е любов в действие. Заедно можем да бъдем отговор на нечия нужда.",
     donate_why_label: "Защо да дариш",
     donate_why_title: "Всеки жест има значение.",
-    donate_card1_title: "Три континента",
+    donate_card1_title: "Два континента",
     donate_card1_text:
-      "Твоето дарение достига до Уганда, България и Ел Салвадор — до хора които се нуждаят от надежда.",
+      "Твоето дарение достига до Уганда, България — до хора които се нуждаят от надежда.",
     donate_card2_title: "Любов в действие",
     donate_card2_text:
       "Всеки лев, всеки долар е конкретна грижа — образование, храна, медицинска помощ, присъствие.",
@@ -230,14 +211,14 @@ const translations = {
     contact_btn_send: "Изпрати съобщение",
     contact_info_title: "Намери ни",
     contact_info1_title: "Глобално служение",
-    contact_info1_text: "Уганда · България · Ел Салвадор",
+    contact_info1_text: "Уганда  България ",
     contact_info2_title: "Имейл",
     contact_info3_title: "Следвай ни",
     contact_info3_text:
       "Свържи се с нас в социалните мрежи за последни новини и истории.",
 
     footer_tagline: "Свобода. Надежда. Любов в действие.",
-    footer_copy: "© 2025 Freedom Projectz. Всички права запазени.",
+    footer_copy: "© 2026 Freedom Projectz. Всички права запазени.",
   },
 
   en: {
@@ -267,8 +248,7 @@ const translations = {
 
     video_label: "Who we are",
     video_title: "Meet Freedom Projectz",
-    video_subtitle:
-      "Watch how our mission lives in Uganda, Bulgaria and El Salvador.",
+    video_subtitle: "Watch how our mission lives in Uganda, Bulgaria.",
 
     home_story_label: "Our Story",
     home_story_title:
@@ -287,16 +267,13 @@ const translations = {
     home_story_btn: "Read our story →",
 
     home_projects_label: "Our Projects",
-    home_projects_title: "Love in action — three continents, one calling.",
+    home_projects_title: "Love in action — two continents, one calling.",
     home_ug_title: "Uganda",
     home_ug_text:
       "We work with local communities to bring hope, education and care to children and families in Uganda.",
     home_bg_title: "Bulgaria",
     home_bg_text:
       "We serve those in need in our own community — because change begins at home.",
-    home_sv_title: "El Salvador",
-    home_sv_text:
-      "We support families and children in El Salvador with love, resources and presence.",
 
     home_impact_label: "Our Impact",
     home_impact1: "Countries where we serve",
@@ -376,7 +353,7 @@ const translations = {
     story_cta_btn: "Support Freedom Projectz",
 
     projects_hero_label: "Our Projects",
-    projects_hero_title: "Love in action — three continents, one calling.",
+    projects_hero_title: "Love in action — two continents, one calling.",
     projects_hero_subtitle:
       "Wherever we go, we carry the same message — God sees, loves and cares for you.",
     projects_how: "How we serve",
@@ -410,21 +387,6 @@ const translations = {
     projects_bg_card3_title: "Youth Ministry",
     projects_bg_card3_text:
       "We invest in the next generation of leaders through training, mentorship and inspiration.",
-    projects_sv_label: "El Salvador",
-    projects_sv_title: "Hope for families and children.",
-    projects_sv_text1:
-      "In El Salvador Freedom Projectz serves families and children in need — bringing love, resources and presence.",
-    projects_sv_text2:
-      "We believe every child deserves to grow up in an environment of love and care.",
-    projects_sv_card1_title: "Child Care",
-    projects_sv_card1_text:
-      "We provide a safe environment, food and education for children at risk.",
-    projects_sv_card2_title: "Community Development",
-    projects_sv_card2_text:
-      "We work with local leaders to build sustainable solutions for the community.",
-    projects_sv_card3_title: "Spiritual Care",
-    projects_sv_card3_text:
-      "We bring a message of hope and love through Jesus Christ to all we meet.",
     projects_cta_title: "Do you want to serve?",
     projects_cta_text:
       "If you want to serve with us — contact us and a member of the Freedom Projectz team will get in touch.",
@@ -436,9 +398,9 @@ const translations = {
       "Every donation — large or small — is love in action. Together we can be the answer to someone's need.",
     donate_why_label: "Why donate",
     donate_why_title: "Every gesture matters.",
-    donate_card1_title: "Three continents",
+    donate_card1_title: "Two continents",
     donate_card1_text:
-      "Your donation reaches Uganda, Bulgaria and El Salvador — to people who need hope.",
+      "Your donation reaches Uganda, Bulgaria — to people who need hope.",
     donate_card2_title: "Love in action",
     donate_card2_text:
       "Every dollar is concrete care — education, food, medical help, presence.",
@@ -470,14 +432,14 @@ const translations = {
     contact_btn_send: "Send message",
     contact_info_title: "Find us",
     contact_info1_title: "Global ministry",
-    contact_info1_text: "Uganda · Bulgaria · El Salvador",
+    contact_info1_text: "Uganda  Bulgaria ",
     contact_info2_title: "Email",
     contact_info3_title: "Follow us",
     contact_info3_text:
       "Connect with us on social media for the latest news and stories.",
 
     footer_tagline: "Freedom. Hope. Love in action.",
-    footer_copy: "© 2025 Freedom Projectz. All rights reserved.",
+    footer_copy: "© 2026 Freedom Projectz. All rights reserved.",
   },
 };
 
