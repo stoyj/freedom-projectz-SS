@@ -510,3 +510,23 @@ body {
     flex-direction: column;
   }
 }
+
+/* ===== FOOTER SOCIAL ICONS ===== */
+/* БГ: Стилове за социалните икони в footer-а */
+/* EN: Styles for social media icons in the footer */
+.footer-social {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.footer-social a {
+  color: var(--text-soft);
+  font-size: 1.3rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: var(--accent-light);
+}
