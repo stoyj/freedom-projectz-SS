@@ -463,7 +463,7 @@ function setLanguage(lang) {
 }
 
 function initLanguage() {
-  const saved = localStorage.getItem("lang") || "bg";
+  const saved = localStorage.getItem("lang") || "en";
   setLanguage(saved);
   const bgBtn = document.getElementById("lang-bg");
   const enBtn = document.getElementById("lang-en");
