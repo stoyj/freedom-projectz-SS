@@ -135,6 +135,7 @@ body {
   transition:
     transform 0.3s ease,
     border-color 0.3s ease;
+  will-change: opacity, transform;
 }
 
 .mission-card:hover {
@@ -529,4 +530,44 @@ body {
 
 .footer-social a:hover {
   color: var(--accent-light);
+}
+
+/* ========== SCROLL ANIMATIONS ========== */
+
+/* Mission strip — on page load */
+.fade-in-load {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.fade-in-load:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.fade-in-load:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.fade-in-load:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+/* Sections below — on scroll */
+.fade-in {
+  animation: fadeInUp 0.6s ease forwards;
+  animation-play-state: paused;
+}
+
+.fade-in.visible {
+  animation-play-state: running;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
