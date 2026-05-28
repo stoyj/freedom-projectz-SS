@@ -1,11 +1,5 @@
 /* ===== ОСНОВНИ НАСТРОЙКИ ===== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* ===== НАВИГАЦИЯ — ЛЕНТА ГОРЕ ===== */
 .nav-header {
   position: fixed;
   top: 0;
@@ -80,7 +74,6 @@
     background: #0a0a1a;
     flex-direction: column;
     align-items: center;
-    gap: 2rem; /* ← това прави разстоянието между линковете */
     padding: 2rem 0;
     gap: 1.5rem;
     transform: translateY(-150%);

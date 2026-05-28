@@ -1,4 +1,10 @@
 /* ===== CSS ПРОМЕНЛИВИ — ЦВЕТОВЕ И ШРИФТОВЕ ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --bg-main: #0a0a1a;
   --bg-section: #0f0f23;

@@ -211,7 +211,7 @@ const translations = {
     contact_btn_send: "Изпрати съобщение",
     contact_info_title: "Намери ни",
     contact_info1_title: "Глобално служение",
-    contact_info1_text: "Уганда  България ",
+    contact_info1_text: "Уганда · България",
     contact_info2_title: "Имейл",
     contact_info3_title: "Следвай ни",
     contact_info3_text:
@@ -432,7 +432,7 @@ const translations = {
     contact_btn_send: "Send message",
     contact_info_title: "Find us",
     contact_info1_title: "Global ministry",
-    contact_info1_text: "Uganda  Bulgaria ",
+    contact_info1_text: "Uganda · Bulgaria",
     contact_info2_title: "Email",
     contact_info3_title: "Follow us",
     contact_info3_text:
@@ -444,7 +444,7 @@ const translations = {
 };
 
 function setLanguage(lang) {
-  if (!translations[lang]) lang = "bg";
+  if (!translations[lang]) lang = "en";
   localStorage.setItem("lang", lang);
   document.documentElement.lang = lang;
   document.querySelectorAll("[data-i18n]").forEach((el) => {

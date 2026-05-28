@@ -12,7 +12,7 @@ async function loadFooter() {
     // БГ: Прилага текущия език към footer-а
     // EN: Apply current language to footer
     if (typeof setLanguage === "function") {
-      const savedLang = localStorage.getItem("lang") || "bg";
+      const savedLang = localStorage.getItem("lang") || "en";
       setLanguage(savedLang);
     }
   } catch (err) {
